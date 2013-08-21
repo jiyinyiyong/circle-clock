@@ -1,0 +1,33 @@
+
+.box
+  position absolute
+  square 400px
+  margin 20px
+  place-center()
+
+.shape
+  fill 100%
+  circle 200px
+  place-center()
+
+#theme .shape
+  background bg-blue
+
+#hour
+  place-center()
+  .shape
+    animate-hour()
+    origin-center()
+  .spot
+    circle 100px
+    background bg-white
+    -webkit-transform translate(0px, -50px)
+
+#minute
+  .shape
+    animate-minute()
+    origin-center()
+  .spot
+    circle 50px
+    background bg-blue
+    -webkit-transform translate(0px, -125px)

@@ -1,5 +1,5 @@
 {
-  "name": "one-page",
+  "name": "circle-clock",
   "version": "0.0.1",
   "description": "an one page app",
   "main": "build/bundle.js",
@@ -23,6 +23,14 @@
     "grunt-contrib-jade": "~0.8.0",
     "grunt-browserify": "~1.2.3",
     "grunt": "~0.4.1",
+    "grunt-contrib-stylus": "~0.7.0",
+    "grunt-contrib-watch": "~0.5.2"
+  },
+  "dependencies": {
+    "coffeeify": "~0.5.1",
+    "grunt": "~0.4.1",
+    "grunt-browserify": "~1.2.3",
+    "grunt-contrib-jade": "~0.8.0",
     "grunt-contrib-stylus": "~0.7.0",
     "grunt-contrib-watch": "~0.5.2"
   }

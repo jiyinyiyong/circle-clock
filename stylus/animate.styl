@@ -1,0 +1,18 @@
+
+animate-with(time)
+  -webkit-animation-name go-round
+  -webkit-animation-iteration-count infinite
+  -webkit-animation-timing-function linear
+  -webkit-animation-duration time
+
+animate-hour()
+  animate-with 300s
+
+animate-minute()
+  animate-with 5s
+
+@keyframes go-round
+  0%
+    -webkit-transform rotate(0deg)
+  100%
+    -webkit-transform rotate(360deg)
